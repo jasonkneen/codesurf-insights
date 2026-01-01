@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "event": "stop",
+      "type": "prompt",
+      "prompt": "The session just ended. Check if auto-analysis should run:\n\n1. Read settings from ~/.claude/codesurf-insights.local.md (if exists)\n2. Get the current conversation message count\n3. If message count >= min_messages threshold (default: 10):\n   - Run the conversation-analyzer agent on this session\n   - Extract top insights (max 5)\n   - Update CLAUDE.md with new lessons between <!-- codesurf-insights: START --> and <!-- codesurf-insights: END --> markers\n4. Check if auto-compact is enabled and detritus_ratio > threshold:\n   - Run detritus-detector on flagged content\n   - Archive to ~/.claude/insights/archive/\n5. Report summary of actions taken\n\nBe concise in output - just show what was learned and any actions taken."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Local settings (user-specific)
+.claude/*.local.md
+
+# Node modules if any scripts need them
+node_modules/
+
+# OS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log

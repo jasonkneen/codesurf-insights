@@ -1,0 +1,15 @@
+{
+  "name": "codesurf-insights",
+  "version": "0.1.0",
+  "description": "Learn from conversation history to improve Claude Code performance. Analyzes logs for communication patterns, model understanding, assumptions, efficiency, and extracts actionable lessons.",
+  "author": {
+    "name": "jkneen"
+  },
+  "keywords": [
+    "analytics",
+    "learning",
+    "conversation-history",
+    "insights",
+    "improvement"
+  ]
+}
