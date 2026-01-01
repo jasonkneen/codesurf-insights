@@ -1,0 +1,4 @@
+#!/bin/bash
+# Auto-sync folders before commit
+./sync.sh
+git add agents/ commands/ skills/
